@@ -9,7 +9,7 @@ export default function Contact() {
       </p>
       <div className="links">
         <a className="btn" href={profile.whatsapp.url} target="_blank" rel="noopener noreferrer">
-          WhatsApp {profile.whatsapp.display}
+          WhatsApp
         </a>
         <a className="btn ghost" href={`mailto:${profile.email}`}>
           {profile.email}
